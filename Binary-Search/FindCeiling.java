@@ -7,7 +7,7 @@ class FindCeiling{
         System.out.println(ans);
     }
 
-    //find ceiling of a number-smallest number which is larger than the target if we do not find the target
+    //find ceiling of a number-smallest number which is larger than or equal to the target 
      static int findCeiling(int[] arr, int target) {
         boolean isAsc=arr[0]<arr[arr.length-1];
         int start=0;
